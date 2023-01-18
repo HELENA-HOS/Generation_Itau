@@ -2,7 +2,7 @@ create database escola;
 
 use escola;
 
-create table alunos(
+CREATE TABLE alunos(
 id int(3) auto_increment,
 nome varchar(100) not null, 
 matéria varchar(100) not null,
@@ -11,7 +11,7 @@ curso varchar(50),
 primary key (id)
 );
 
-select * from alunos;
+SELECT * from alunos;
 
 
 insert into alunos(nome,matéria,nota,curso) values ("João Silva","Português",7.5,"Literatura");
